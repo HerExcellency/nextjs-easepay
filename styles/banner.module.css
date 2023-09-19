@@ -1,0 +1,48 @@
+.banner{
+    color: #fff;
+    display: grid;
+    /* height: 80vh; */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px
+}
+.banner Image{
+    margin-top: 70px;
+}
+.title{
+    /* font-family: Roboto; */
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+.subtitle{
+    margin-top: 13px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputfield{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.inputfield input{
+    padding: 8px 4px;
+    margin-right: 20px;
+}
+.inputfield button{
+    padding: 8px 18px;
+    border: 2px solid #310E93;
+    background-color: #310E93;
+}

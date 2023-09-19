@@ -1,0 +1,29 @@
+.title{
+    color: #fff;
+    font-size: 70px;
+}
+.navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.leftside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 39%;
+}
+.listy{
+    display: flex
+}
+.linky{
+    padding: 0 5px;
+}
+.button{
+    border: solid 2px #fff;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}

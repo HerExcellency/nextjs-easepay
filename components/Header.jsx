@@ -1,11 +1,11 @@
 import styles from '../styles/header.module.css'
-import Head from 'next/head';
+// import Head from 'next/head';
 import Image from 'next/image'
 import logo from '../public/logo.png'
 
 const Header = () => {
     return (
-            <Head>
+            // <Head>
                 <div className={styles.navbar}>
                     <div className={styles.leftside}>
                         <Image src={logo} alt="easepay logo" />
@@ -22,7 +22,7 @@ const Header = () => {
                         <button className={styles.button}>Contact Us</button>
                     </div>
                 </div>
-            </Head>
+            // </Head>
     )
 }
 export default Header;
